@@ -1,0 +1,8 @@
+Data Demo1;
+set sashelp.class;
+run;
+proc sort data=demo1;
+by name;
+run;
+proc print data=demo1;
+run;
